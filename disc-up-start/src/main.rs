@@ -17,7 +17,7 @@ use prompts::{
 };
 use regex::Regex;
 use sequoia_openpgp::{cert::CertBuilder, serialize::Marshal};
-use serde_derive::{Deserialize, Serialize};
+use serde::{Deserialize, Serialize};
 
 use path_absolutize::*;
 
